@@ -2,9 +2,7 @@ import os
 import requests
 import tqdm
 
-api_key = "ym7KiXQRlh7OwH8zwQB3WGFPUcwqEjhIiscnkpfM"
-user_id = 8430686638861
-email = "admin@m2nikn.com"
+from config import *
 
 # Set the base URL for the ZenDesk API
 base_url = "https://{subdomain}.zendesk.com/api/v2".format(subdomain="m2nikninc")
